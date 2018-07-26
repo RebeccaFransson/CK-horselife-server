@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "CK-horselife-server",
+  "productName": "CK-horselife-server",
+  "description": "My brilliant Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "babel": {
+    "presets": [
+      [
+        "vue-app",
+        {
+          "useBuiltIns": true
+        }
+      ]
+    ]
+  },
+  "author": {
+    "name": "Rebecca Fransson",
+    "email": "rebecca@kollektiva.se"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.2.5"
+  }
+}
