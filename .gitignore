@@ -1,3 +1,5 @@
-database/db-cred.js
+data/db-cred.js
 
 node_modules
+
+.vscode
